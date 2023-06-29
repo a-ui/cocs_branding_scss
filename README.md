@@ -1,4 +1,4 @@
-# Branding variant
+# Antwerp branding variant
 
 This project contains everything you need to make a variant of Antwerp's core branding.
 
