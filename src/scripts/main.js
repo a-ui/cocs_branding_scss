@@ -2,6 +2,20 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // Set indeterminate state of some checkboxes
+    const accordions = document.querySelectorAll(".m-accordion__header");
+
+    for (let index = 0; index < accordions.length; index++) {
+        const accordionEl = accordions[index];
+
+        accordionEl.onclick = () => {
+            if (accordionEl.getAttribute("aria-expanded") == "true") {
+                accordionEl.setAttribute("aria-expanded", "false");
+            } else {
+                accordionEl.setAttribute("aria-expanded", "true");
+            }
+        }
+    }
+
     const checkboxes = document.querySelectorAll("#checkbox-indeterminate, #table-checkbox1");
 
     for (let index = 0; index < checkboxes.length; index++) {
@@ -40,6 +54,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    const toggles = document.querySelectorAll(".a-toggle__button");
+
+    for (let index = 0; index < toggles.length; index++) {
+        const toggleEl = toggles[index];
+
+        toggleEl.onclick = () => {
+            if (toggleEl.getAttribute("aria-expanded") == "true") {
+                toggleEl.setAttribute("aria-expanded", "false");
+            } else {
+                toggleEl.setAttribute("aria-expanded", "true");
+            }
+        }
+    }
+
     const tags = document.querySelectorAll("button.m-tag");
 
     for (let index = 0; index < tags.length; index++) {
@@ -53,9 +81,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-
-    const map = L.map('map', {attributionControl: false, zoomControl: false}).setView([51.21793, 4.41039], 11);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-    }).addTo(map);
 }, false);
