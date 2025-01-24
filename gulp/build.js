@@ -20,7 +20,7 @@ gulp.task('cdn', function (callback) {
 });
 
 gulp.task('replace', function() {
-    return gulp.src(['.tmp/**/main.css', '.tmp/**/styleguide.css'])
+    return gulp.src(['.tmp/**/*.css'])
         .pipe(replace('../../', '../'))
         .pipe(gulp.dest('docs'));
 });
