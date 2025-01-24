@@ -1,0 +1,22 @@
+@use '@a-ui/core/src/styles/quarks' as *;
+@use 'sass:color';
+
+:root {
+  --brand-1: #{$tropical-rain-forest-700};
+  --brand-1-tint: #{$tropical-rain-forest-800};
+  --brand-1-alt-tint: #{$tropical-rain-forest-100};
+
+  --brand-2: #{$mantis-700};
+  --brand-2-tint: #{$mantis-800};
+  --brand-2-alt-tint: #{$mantis-100};
+
+  --brand-3: #{$rouge-700};
+  --brand-3-tint: #{$rouge-800};
+  --brand-3-alt-tint: #{$rouge-100};
+
+  --link: #{$tropical-rain-forest-700};
+  --link-tint: #{$tropical-rain-forest-800};
+  --link-alt-tint: #{$tropical-rain-forest-100};
+
+  --state-selected: #{color.mix($tropical-rain-forest-700, $white, 20%)};
+}

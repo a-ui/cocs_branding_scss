@@ -1,0 +1,22 @@
+@use '@a-ui/core/src/styles/quarks' as *;
+@use 'sass:color';
+
+:root {
+  --brand-1: #{$deep-cerulean-700};
+  --brand-1-tint: #{$deep-cerulean-800};
+  --brand-1-alt-tint: #{$deep-cerulean-100};
+
+  --brand-2: #{$tropical-rain-forest-600};
+  --brand-2-tint: #{$tropical-rain-forest-700};
+  --brand-2-alt-tint: #{$tropical-rain-forest-100};
+
+  --brand-3: #{$deep-cerulean-600};
+  --brand-3-tint: #{$deep-cerulean-700};
+  --brand-3-alt-tint: #{$deep-cerulean-100};
+
+  --link: #{$deep-cerulean-700};
+  --link-tint: #{$deep-cerulean-800};
+  --link-alt-tint: #{$deep-cerulean-100};
+
+  --state-selected: #{color.mix($deep-cerulean-700, $white, 20%)};
+}

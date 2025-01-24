@@ -1,0 +1,22 @@
+@use '@a-ui/core/src/styles/quarks' as *;
+@use 'sass:color';
+
+:root {
+  --brand-1: #{$st-tropaz-700};
+  --brand-1-tint: #{$st-tropaz-800};
+  --brand-1-alt-tint: #{$st-tropaz-100};
+
+  --brand-2: #{$mantis-700};
+  --brand-2-tint: #{$mantis-800};
+  --brand-2-alt-tint: #{$mantis-100};
+
+  --brand-3: #{$rouge-700};
+  --brand-3-tint: #{$rouge-800};
+  --brand-3-alt-tint: #{$rouge-100};
+
+  --link: #{$st-tropaz-700};
+  --link-tint: #{$st-tropaz-800};
+  --link-alt-tint: #{$st-tropaz-100};
+
+  --state-selected: #{color.mix($st-tropaz-700, $white, 20%)};
+}

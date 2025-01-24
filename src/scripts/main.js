@@ -1,6 +1,13 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
+    const cocPicker = document.querySelector("#coc-pick");
+    const theme = document.querySelector("#theme");
+
+    cocPicker.onchange = (event) => {
+        theme.setAttribute('href', `styles/${event.target.value}.css`);
+    }
+
     // Set indeterminate state of some checkboxes
     const accordions = document.querySelectorAll(".m-accordion__header");
 

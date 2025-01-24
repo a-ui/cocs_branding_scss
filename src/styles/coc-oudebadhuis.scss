@@ -1,0 +1,31 @@
+@use '@a-ui/core/src/styles/quarks' as *;
+@use 'sass:color';
+
+:root {
+  --brand-1: #{$deep-cerulean-300};
+  --brand-1-tint: #{$deep-cerulean-400};
+  --brand-1-contrast: #{$black};
+  --brand-1-alt: #{$deep-cerulean-700};
+  --brand-1-alt-tint: #{$deep-cerulean-800};
+  --brand-1-alt-contrast: #{$white};
+
+  --brand-2: #{$cinnabar-300};
+  --brand-2-tint: #{$cinnabar-400};
+  --brand-2-contrast: #{$black};
+  --brand-2-alt: #{$cinnabar-700};
+  --brand-2-alt-tint: #{$cinnabar-800};
+  --brand-2-alt-contrast: #{$white};
+
+  --brand-3: #{$endeavour-300};
+  --brand-3-tint: #{$endeavour-400};
+  --brand-3-contrast: #{$black};
+  --brand-3-alt: #{$endeavour-700};
+  --brand-3-alt-tint: #{$endeavour-800};
+  --brand-3-alt-contrast: #{$white};
+
+  --link: #{$endeavour-700};
+  --link-tint: #{$endeavour-800};
+  --link-alt-tint: #{$endeavour-100};
+
+  --state-selected: #{color.mix($endeavour-300, $white, 20%)};
+}
