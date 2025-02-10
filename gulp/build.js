@@ -9,12 +9,13 @@ var replace = require('gulp-replace');
 gulp.task('cdn', function (callback) {
     var nodePackageFile = JSON.parse(fs.readFileSync('./package.json'));
     var version = nodePackageFile.version;
+    var description = nodePackageFile.description;
 
     fs.rename('dist/aws', 'dist/' + version, function (err) {
         if (err) {
             throw err;
         }
-        console.log('\n----++++ https://cdn.antwerpen.be/core_branding_scss/' + version + '/main.min.css ++++----\n');
+        console.log('\n----++++ https://cdn.antwerpen.be/' + description + '/' + version + '/main.min.css ++++----\n');
         callback();
     });
 });
@@ -38,8 +39,9 @@ gulp.task('replace:dist', function() {
 gulp.task('readme', function() {
     var nodePackageFile = JSON.parse(fs.readFileSync('./package.json'));
     var version = nodePackageFile.version;
+    var description = nodePackageFile.description;
 
     return gulp.src(['README.md'])
-        .pipe(replace(/core_branding_scss\/[0-9]\.[0-9]\.[0-9]\/main.min.css/g, 'core_branding_scss/' + version + '/main.min.css'))
+        .pipe(replace(/core_branding_scss\/[0-9]\.[0-9]\.[0-9]\/main.min.css/g, description + '/' + version + '/main.min.css'))
         .pipe(gulp.dest('./'));
 });
