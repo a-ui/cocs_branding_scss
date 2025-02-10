@@ -23,9 +23,12 @@
   --brand-3-alt-tint: #{$endeavour-800};
   --brand-3-alt-contrast: #{$white};
 
-  --link: #{$endeavour-700};
-  --link-tint: #{$endeavour-800};
-  --link-alt-tint: #{$endeavour-100};
+  --brand-1: #{$endeavour-600};
+  --brand-1-tint: #{$endeavour-700};
+  --brand-1-contrast: #{$white};
+  --brand-1-alt: #{$white};
+  --brand-1-alt-tint: #{$endeavour-100};
+  --brand-1-alt-contrast: #{$black};
 
   --state-selected: #{color.mix($endeavour-300, $white, 20%)};
 }

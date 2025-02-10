@@ -20,9 +20,5 @@
   --brand-3-alt-tint: #{$st-tropaz-800};
   --brand-3-alt-contrast: #{$white};
 
-  --link: #{$st-tropaz-700};
-  --link-tint: #{$st-tropaz-800};
-  --link-alt-tint: #{$st-tropaz-100};
-
   --state-selected: #{color.mix($st-tropaz-700, $white, 20%)};
 }

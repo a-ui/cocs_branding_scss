@@ -20,9 +20,5 @@
   --brand-3-alt-tint: #{$deep-cerulean-800};
   --brand-3-alt-contrast: #{$white};
 
-  --link: #{$tropical-rain-forest-700};
-  --link-tint: #{$tropical-rain-forest-800};
-  --link-alt-tint: #{$tropical-rain-forest-100};
-
   --state-selected: #{color.mix($tropical-rain-forest-700, $white, 20%)};
 }

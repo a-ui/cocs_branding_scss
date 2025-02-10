@@ -14,9 +14,5 @@
   --brand-3-tint: #{$deep-cerulean-700};
   --brand-3-alt-tint: #{$deep-cerulean-100};
 
-  --link: #{$deep-cerulean-700};
-  --link-tint: #{$deep-cerulean-800};
-  --link-alt-tint: #{$deep-cerulean-100};
-
   --state-selected: #{color.mix($deep-cerulean-700, $white, 20%)};
 }

@@ -14,9 +14,5 @@
   --brand-3-tint: #{$mantis-800};
   --brand-3-alt-tint: #{$mantis-100};
 
-  --link: #{$endeavour-700};
-  --link-tint: #{$endeavour-800};
-  --link-alt-tint: #{$endeavour-100};
-
   --state-selected: #{color.mix($endeavour-700, $white, 20%)};
 }
