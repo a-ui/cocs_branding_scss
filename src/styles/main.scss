@@ -81,12 +81,12 @@
   // --overlay-color: #{rgba($black, .75)};
   // --box-shadow-color: #{rgba($neutral-600, .12)};
 
-  // --link: #{$endeavour-600};
-  // --link-tint: #{$endeavour-700};
-  // --link-contrast: #{$white};
-  // --link-alt: #{$white};
-  // --link-alt-tint: #{$endeavour-100};
-  // --link-alt-contrast: #{$black};
+  // --link: var(--link);
+  // --link-tint: var(--link-tint);
+  // --link-contrast: var(--link-contrast);
+  // --link-alt: var(--link-alt);
+  // --link-alt-tint: var(--link-alt-tint);
+  // --link-alt-contrast: var(--link-alt-contrast);
 
   // --state-selected: #{color.mix($endeavour-600, $white, 20%)};
 
