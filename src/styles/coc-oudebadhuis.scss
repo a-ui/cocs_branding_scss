@@ -2,11 +2,11 @@
 @use 'sass:color';
 
 :root {
-  --brand-1: #{$deep-cerulean-300};
-  --brand-1-tint: #{$deep-cerulean-400};
+  --brand-1: #{$endeavour-300};
+  --brand-1-tint: #{$endeavour-400};
   --brand-1-contrast: #{$black};
-  --brand-1-alt: #{$deep-cerulean-700};
-  --brand-1-alt-tint: #{$deep-cerulean-800};
+  --brand-1-alt: #{$endeavour-700};
+  --brand-1-alt-tint: #{$endeavour-800};
   --brand-1-alt-contrast: #{$white};
 
   --brand-2: #{$cinnabar-300};
@@ -23,12 +23,12 @@
   --brand-3-alt-tint: #{$endeavour-800};
   --brand-3-alt-contrast: #{$white};
 
-  --brand-1: #{$endeavour-600};
-  --brand-1-tint: #{$endeavour-700};
-  --brand-1-contrast: #{$white};
-  --brand-1-alt: #{$white};
-  --brand-1-alt-tint: #{$endeavour-100};
-  --brand-1-alt-contrast: #{$black};
+  --link: #{$endeavour-600};
+  --link-tint: #{$endeavour-700};
+  --link-contrast: #{$white};
+  --link-alt: #{$white};
+  --link-alt-tint: #{$endeavour-100};
+  --link-alt-contrast: #{$black};
 
   --state-selected: #{color.mix($endeavour-300, $white, 20%)};
 }
