@@ -20,5 +20,7 @@
   --brand-3-alt-tint: #{$deep-cerulean-800};
   --brand-3-alt-contrast: #{$white};
 
+  --bg-color: var(--LINK-ALT-TINT);
+
   --state-selected: #{color.mix($tropical-rain-forest-700, $white, 20%)};
 }

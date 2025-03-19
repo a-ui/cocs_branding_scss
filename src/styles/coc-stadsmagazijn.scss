@@ -14,5 +14,7 @@
   --brand-3-tint: #{$hollywood-cerise-800};
   --brand-3-alt-tint: #{$hollywood-cerise-100};
 
+  --bg-color: var(--LINK-ALT-TINT);
+
   --state-selected: #{color.mix($tropical-rain-forest-700, $white, 20%)};
 }

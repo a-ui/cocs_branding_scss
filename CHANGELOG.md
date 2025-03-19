@@ -3,7 +3,7 @@
 
 ## Unreleased
 
-## [1.0.0] - 2025-xx-xx
+## [1.0.0] - 2025-03-19
 
 - Initial release.
 

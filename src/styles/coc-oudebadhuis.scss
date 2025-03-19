@@ -30,5 +30,7 @@
   --link-alt-tint: #{$endeavour-100};
   --link-alt-contrast: #{$black};
 
+  --bg-color: var(--LINK-ALT-TINT);
+
   --state-selected: #{color.mix($endeavour-300, $white, 20%)};
 }

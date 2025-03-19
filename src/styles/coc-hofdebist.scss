@@ -14,5 +14,7 @@
   --brand-3-tint: #{$rouge-800};
   --brand-3-alt-tint: #{$rouge-100};
 
+  --bg-color: var(--LINK-ALT-TINT);
+
   --state-selected: #{color.mix($st-tropaz-700, $white, 20%)};
 }
