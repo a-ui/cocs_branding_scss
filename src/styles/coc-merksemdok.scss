@@ -2,25 +2,25 @@
 @use 'sass:color';
 
 :root {
-  --brand-1: #{$st-tropaz-700};
-  --brand-1-tint: #{$st-tropaz-800};
-  --brand-1-alt-tint: #{$st-tropaz-100};
+  --brand-1: #{$butterfly-bush-600};
+  --brand-1-tint: #{$butterfly-bush-700};
+  --brand-1-alt-tint: #{$butterfly-bush-100};
 
-  --brand-2: #{$rouge-300};
-  --brand-2-tint: #{$rouge-400};
+  --brand-2: #{$hollywood-cerise-300};
+  --brand-2-tint: #{$hollywood-cerise-400};
   --brand-2-contrast: #{$black};
-  --brand-2-alt: #{$rouge-700};
-  --brand-2-alt-tint: #{$rouge-800};
+  --brand-2-alt: #{$hollywood-cerise-700};
+  --brand-2-alt-tint: #{$hollywood-cerise-800};
   --brand-2-alt-contrast: #{$white};
 
-  --brand-3: #{$st-tropaz-300};
-  --brand-3-tint: #{$st-tropaz-400};
+  --brand-3: #{$mantis-200};
+  --brand-3-tint: #{$mantis-300};
   --brand-3-contrast: #{$black};
-  --brand-3-alt: #{$st-tropaz-700};
-  --brand-3-alt-tint: #{$st-tropaz-800};
+  --brand-3-alt: #{$mantis-700};
+  --brand-3-alt-tint: #{$mantis-800};
   --brand-3-alt-contrast: #{$white};
 
   --bg-color: var(--LINK-ALT-TINT);
 
-  --state-selected: #{color.mix($st-tropaz-700, $white, 20%)};
+  --state-selected: #{color.mix($butterfly-bush-600, $white, 20%)};
 }

@@ -70,23 +70,21 @@
  * them here as SCSS variables so we can use them like that in media queries.
  */
 :root {
-  --brand-1: #1d4289;
-  --brand-1-tint: #002855;
-  --brand-1-alt-tint: #f3f6fc;
-  --brand-2: #e4c6d4;
-  --brand-2-tint: #dca9bf;
+  --brand-1: #654ea3;
+  --brand-1-tint: #483698;
+  --brand-1-alt-tint: #f0eef7;
+  --brand-2: #f5dadf;
+  --brand-2-tint: #e6bcd7;
   --brand-2-contrast: #000;
-  --brand-2-alt: #872651;
-  --brand-2-alt-tint: #672e45;
+  --brand-2-alt: #840b55;
+  --brand-2-alt-tint: #651c32;
   --brand-2-alt-contrast: #fff;
-  --brand-3: #99b6e0;
-  --brand-3-tint: #6290ce;
+  --brand-3: #d1ebc6;
+  --brand-3-tint: #bce194;
   --brand-3-contrast: #000;
-  --brand-3-alt: #1d4289;
-  --brand-3-alt-tint: #002855;
+  --brand-3-alt: #006e33;
+  --brand-3-alt-tint: #004721;
   --brand-3-alt-contrast: #fff;
-  --link: #1d4289;
-  --link-tint: #002855;
-  --link-alt-tint: #f3f6fc;
-  --state-selected: rgb(209.8, 217.2, 231.4);
+  --bg-color: var(--LINK-ALT-TINT);
+  --state-selected: rgb(224.2, 219.6, 236.6);
 }

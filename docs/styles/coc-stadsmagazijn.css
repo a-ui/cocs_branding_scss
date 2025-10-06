@@ -73,14 +73,15 @@
   --brand-1: #00664f;
   --brand-1-tint: #004e42;
   --brand-1-alt-tint: #f0f5f2;
-  --brand-2: #005f83;
-  --brand-2-tint: #003865;
-  --brand-2-alt-tint: #edf6f7;
+  --brand-2: #e4c6d4;
+  --brand-2-tint: #dca9bf;
+  --brand-2-contrast: #000;
+  --brand-2-alt: #872651;
+  --brand-2-alt-tint: #672e45;
+  --brand-2-alt-contrast: #fff;
   --brand-3: #840b55;
   --brand-3-tint: #651c32;
   --brand-3-alt-tint: #fde7f5;
-  --link: #00664f;
-  --link-tint: #004e42;
-  --link-alt-tint: #f0f5f2;
+  --bg-color: var(--LINK-ALT-TINT);
   --state-selected: rgb(204, 224.4, 219.8);
 }

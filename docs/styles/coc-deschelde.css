@@ -79,8 +79,6 @@
   --brand-3: #007fa3;
   --brand-3-tint: #005f83;
   --brand-3-alt-tint: #edf6f7;
-  --link: #005f83;
-  --link-tint: #003865;
-  --link-alt-tint: #edf6f7;
+  --bg-color: var(--LINK-ALT-TINT);
   --state-selected: rgb(204, 223, 230.2);
 }
