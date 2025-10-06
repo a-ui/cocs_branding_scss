@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [1.1.1] - 2025-10-06
+
+### Fixed
+
+- Fixed secondary and tertiary colors for Merksemdok
+
 ## [1.1.0] - 2025-10-06
 
 ### Changed
@@ -21,6 +27,7 @@
 
 - Initial release.
 
+[1.1.1]: https://github.com/a-ui/cocs_branding_scss/tree/v1.1.1
 [1.1.0]: https://github.com/a-ui/cocs_branding_scss/tree/v1.1.0
 [1.0.1]: https://github.com/a-ui/cocs_branding_scss/tree/v1.0.1
 [1.0.0]: https://github.com/a-ui/cocs_branding_scss/tree/v1.0.0
