@@ -1,0 +1,28 @@
+@use '@a-ui/core/src/styles/quarks' as *;
+@use 'sass:color';
+
+$cinemarix-600: #002182;
+
+:root {
+  --brand-1: #{$st-tropaz-600};
+  --brand-1-tint: #{$st-tropaz-700};
+  --brand-1-alt-tint: #{$st-tropaz-100};
+
+  --brand-2: #{$butterfly-bush-200};
+  --brand-2-tint: #{$butterfly-bush-300};
+  --brand-2-contrast: #{$black};
+  --brand-2-alt: #{$butterfly-bush-100};
+  --brand-2-alt-tint: #{$butterfly-bush-700};
+  --brand-2-alt-contrast: #{$white};
+
+  --brand-3: #{$supernova-200};
+  --brand-3-tint: #{$supernova-300};
+  --brand-3-contrast: #{$black};
+  --brand-3-alt: #{$supernova-700};
+  --brand-3-alt-tint: #{$supernova-800};
+  --brand-3-alt-contrast: #{$white};
+
+  --bg-color: var(--LINK-ALT-TINT);
+
+  --state-selected: #{color.mix($st-tropaz-600, $white, 20%)};
+}

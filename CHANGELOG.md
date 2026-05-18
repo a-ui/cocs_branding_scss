@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## [1.2.0] - 2026-05-xx
+
+### Added
+
+- Added branding variant for Cinema Rix
+
 ## [1.1.1] - 2025-10-06
 
 ### Fixed
@@ -27,6 +33,7 @@
 
 - Initial release.
 
+[1.2.0]: https://github.com/a-ui/cocs_branding_scss/tree/v1.2.0
 [1.1.1]: https://github.com/a-ui/cocs_branding_scss/tree/v1.1.1
 [1.1.0]: https://github.com/a-ui/cocs_branding_scss/tree/v1.1.0
 [1.0.1]: https://github.com/a-ui/cocs_branding_scss/tree/v1.0.1
