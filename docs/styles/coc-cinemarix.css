@@ -70,9 +70,9 @@
  * them here as SCSS variables so we can use them like that in media queries.
  */
 :root {
-  --brand-1: #2c5697;
-  --brand-1-tint: #1d4289;
-  --brand-1-alt-tint: #f3f6fc;
+  --brand-1: #002182;
+  --brand-1-tint: rgb(0, 16.5, 65);
+  --brand-1-alt-tint: rgb(242.25, 243.9, 248.75);
   --brand-2: #e2ddee;
   --brand-2-tint: #dddae8;
   --brand-2-contrast: #000;
