@@ -2,11 +2,13 @@
 @use 'sass:color';
 
 $cinemarix-600: #002182;
+$cinemarix-700: #{color.mix($cinemarix-600, $black, 50%)};
+$cinemarix-100: #{color.mix($cinemarix-600, $white, 5%)};
 
 :root {
-  --brand-1: #{$st-tropaz-600};
-  --brand-1-tint: #{$st-tropaz-700};
-  --brand-1-alt-tint: #{$st-tropaz-100};
+  --brand-1: #{$cinemarix-600};
+  --brand-1-tint: #{$cinemarix-700};
+  --brand-1-alt-tint: #{$cinemarix-100};
 
   --brand-2: #{$butterfly-bush-200};
   --brand-2-tint: #{$butterfly-bush-300};
