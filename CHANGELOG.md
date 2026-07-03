@@ -2,7 +2,13 @@
 
 ## Unreleased
 
-## [1.2.0] - 2026-05-xx
+## [1.2.1] - 2026-07-03
+
+### Changed
+
+- Changed colors for Gravenhof
+
+## [1.2.0] - 2026-06-04
 
 ### Added
 
